@@ -10,6 +10,41 @@
 
 @implementation TimersViewController
 
+- (void)awakeFromNib{
+    
+    counterA = 10;
+    startA = TRUE;
+    
+}
+
+- (void)updateTimer{ //Happens every time updateTimer is called. Should occur every second.
+    
+    counterA -= 1;
+    secondsA.text = [NSString stringWithFormat:@"%i", counterA];
+    
+    if (counterA < 0) // Once timer goes below 0, reset all variables.
+    {
+
+        secondsA.text = @"10 Second Timer";
+        
+        [timerA invalidate];
+        startA = TRUE;
+        counterA = 10;
+        
+    }
+    
+}
+
+-(IBAction)start:(id)sender {
+    
+    if(startA == TRUE) //Check that another instance is not already running.
+    {
+        secondsA.text = @"10";
+        startA = FALSE;
+        timerA = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTimer) userInfo:nil repeats:YES];
+    }
+}
+
 - (void)dealloc
 {
     [super dealloc];
