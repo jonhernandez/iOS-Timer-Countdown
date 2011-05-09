@@ -10,6 +10,14 @@
 
 @interface TimersViewController : UIViewController {
     
+    IBOutlet UILabel *secondsA;
+    NSTimer *timerA;
+    int counterA;
+    BOOL startA;
+    
 }
+
+-(IBAction)start:(id) sender;
+-(void)updateTimer;
 
 @end
