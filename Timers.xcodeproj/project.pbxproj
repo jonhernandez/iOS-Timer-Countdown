@@ -39,20 +39,20 @@
 		0D37C2BC1377C6BE00281069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D37C2BE1377C6BE00281069 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D37C2C01377C6BE00281069 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0D37C2C41377C6BE00281069 /* Timers-Info.plist */ = {isa = PBXFileReference; path = "Timers-Info.plist"; sourceTree = "<group>"; };
+		0D37C2C41377C6BE00281069 /* Timers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timers-Info.plist"; sourceTree = "<group>"; };
 		0D37C2C61377C6BE00281069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D37C2C81377C6BE00281069 /* Timers-Prefix.pch */ = {isa = PBXFileReference; path = "Timers-Prefix.pch"; sourceTree = "<group>"; };
+		0D37C2C81377C6BE00281069 /* Timers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timers-Prefix.pch"; sourceTree = "<group>"; };
 		0D37C2C91377C6BE00281069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D37C2CB1377C6BE00281069 /* TimersAppDelegate.h */ = {isa = PBXFileReference; path = TimersAppDelegate.h; sourceTree = "<group>"; };
+		0D37C2CB1377C6BE00281069 /* TimersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimersAppDelegate.h; sourceTree = "<group>"; };
 		0D37C2CC1377C6BE00281069 /* TimersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimersAppDelegate.m; sourceTree = "<group>"; };
 		0D37C2CF1377C6BE00281069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0D37C2D11377C6BE00281069 /* TimersViewController.h */ = {isa = PBXFileReference; path = TimersViewController.h; sourceTree = "<group>"; };
+		0D37C2D11377C6BE00281069 /* TimersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimersViewController.h; sourceTree = "<group>"; };
 		0D37C2D21377C6BE00281069 /* TimersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimersViewController.m; sourceTree = "<group>"; };
 		0D37C2D51377C6BE00281069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimersViewController.xib; sourceTree = "<group>"; };
 		0D37C2DC1377C6BE00281069 /* TimersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D37C2E41377C6BE00281069 /* TimersTests-Info.plist */ = {isa = PBXFileReference; path = "TimersTests-Info.plist"; sourceTree = "<group>"; };
+		0D37C2E41377C6BE00281069 /* TimersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimersTests-Info.plist"; sourceTree = "<group>"; };
 		0D37C2E61377C6BE00281069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D37C2E81377C6BE00281069 /* TimersTests-Prefix.pch */ = {isa = PBXFileReference; path = "TimersTests-Prefix.pch"; sourceTree = "<group>"; };
+		0D37C2E81377C6BE00281069 /* TimersTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimersTests-Prefix.pch"; sourceTree = "<group>"; };
 		0D37C2E91377C6BE00281069 /* TimersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimersTests.h; sourceTree = "<group>"; };
 		0D37C2EB1377C6BE00281069 /* TimersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimersTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
